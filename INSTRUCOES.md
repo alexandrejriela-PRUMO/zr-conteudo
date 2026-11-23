@@ -114,7 +114,7 @@ timbrado do escritório. Se chegar uma versão melhor da logo, troque esses dois
 **Sexta: carrossel informativo (6 slides).** `capa` → 3 a 5 `texto` → `assinatura`.
 (Imagem única, `unico`, fica disponível se o Alexandre pedir.)
 
-Modelo do `post.json` (exemplo real em `posts/2026-11-27-app-e-reserva-legal/post.json`):
+Modelo do `post.json` (exemplo real em `posts/2026-11-23-app-e-reserva-legal/post.json`):
 
 ```json
 {
