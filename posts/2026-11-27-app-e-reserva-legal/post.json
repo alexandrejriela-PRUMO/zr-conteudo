@@ -1,0 +1,51 @@
+{
+  "pilar": "Código Florestal",
+  "formato": "carrossel",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Código Florestal",
+      "titulo": "APP e Reserva Legal não são a mesma coisa.",
+      "destaque": ["mesma", "coisa"],
+      "sub": "As duas protegem vegetação no imóvel rural, mas têm finalidade, medida e regras diferentes."
+    },
+    {
+      "tipo": "texto",
+      "num": 1,
+      "titulo": "APP depende do lugar",
+      "destaque": ["lugar"],
+      "texto": "A Área de Preservação Permanente existe por causa da posição no terreno: beira de rio, nascente, encosta, topo de morro. Na margem de um rio com menos de 10 metros de largura, a faixa mínima é de 30 metros.",
+      "fonte": "Lei 12.651/2012, art. 4º, I, a"
+    },
+    {
+      "tipo": "texto",
+      "num": 2,
+      "titulo": "Reserva Legal é um percentual",
+      "destaque": ["percentual"],
+      "texto": "É a parte do imóvel que deve manter vegetação nativa, com uso sustentável permitido. Fora da Amazônia Legal, como no Rio Grande do Sul, o mínimo é de 20% da área do imóvel.",
+      "fonte": "Lei 12.651/2012, art. 12, II"
+    },
+    {
+      "tipo": "texto",
+      "num": 3,
+      "titulo": "Às vezes, uma conta na outra",
+      "destaque": ["conta"],
+      "texto": "A APP pode entrar no cálculo da Reserva Legal se isso não levar à abertura de novas áreas, se ela estiver conservada ou em recuperação e se o imóvel estiver inscrito no CAR.",
+      "fonte": "Lei 12.651/2012, art. 15"
+    },
+    {
+      "tipo": "texto",
+      "num": 4,
+      "titulo": "As duas aparecem no CAR",
+      "destaque": ["CAR"],
+      "texto": "APP e Reserva Legal são declaradas no Cadastro Ambiental Rural. É a partir dele que o órgão ambiental analisa o imóvel e, se faltar área, indica a regularização pelo PRA.",
+      "fonte": "Lei 12.651/2012, arts. 29 e 59"
+    },
+    {
+      "tipo": "assinatura",
+      "titulo": "Conteúdo informativo",
+      "texto": "Cada imóvel tem particularidades que dependem de análise própria. Acompanhe as próximas publicações."
+    }
+  ],
+  "legenda": "APP e Reserva Legal não são a mesma coisa.\n\nAs duas protegem vegetação dentro do imóvel rural, mas cada uma tem um motivo e uma medida.\n\nA Área de Preservação Permanente (APP) existe por causa do lugar: margem de rio, entorno de nascente, encosta, topo de morro. Na beira de um rio com menos de 10 metros de largura, a faixa mínima é de 30 metros (Lei 12.651/2012, art. 4º).\n\nA Reserva Legal é um percentual do imóvel que deve manter vegetação nativa. Fora da Amazônia Legal, como no Rio Grande do Sul, o mínimo é de 20% (art. 12). Para imóveis que tinham até 4 módulos fiscais em 22 de julho de 2008, há regra própria (art. 67).\n\nEm algumas condições, a APP pode ser contada dentro da Reserva Legal (art. 15). As duas são declaradas no CAR, que é a base para a análise do imóvel e para a regularização pelo PRA.\n\nConteúdo de caráter informativo.\n\nZubiaurre & Riela Advogados Associados\nAlexandre Juliani Riela · OAB/RS 110.261\nzradvogados.com.br\n\n#direitoambiental #codigoflorestal #reservalegal #direitoagrario #trespassos"
+}
