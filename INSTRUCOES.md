@@ -26,7 +26,7 @@ A publicidade tem que ser sóbria, discreta e informativa, sem captação de cli
 Na prática, 5 regras do conteúdo:
 
 1. **O post ensina, não vende.** Explica a regra e para aí. Nada de "a gente resolve", "conte com a gente", "procure um advogado especialista".
-2. **Fechamento neutro.** O último slide é uma assinatura (escritório, advogado, OAB e site), como um cartão.
+2. **Fechamento neutro.** O último slide é uma assinatura (escritório, os dois sócios com OAB e site), como um cartão.
    Explicar o tema e terminar oferecendo o serviço é tratado por parte da OAB como captação disfarçada.
    Frases permitidas para fechar: "Conteúdo de caráter informativo.", "Acompanhe as próximas publicações."
 3. **Sem medo vendido.** Urgência só quando é fato (um prazo que vence, uma lei que entrou em vigor), dita com sobriedade.
@@ -102,7 +102,8 @@ PRUMO é escuro, sem serifa, "de sistema", com selo em pílula; Santa Rute é cr
 - Rótulo do tema: traço dourado + caixa-alta espaçada cinza (sem selo, sem pílula).
 - Rodapé: filete, site à esquerda, número do slide à direita.
 - Slide final (`assinatura`): fundo grafite liso com moldura fina, logo completa em prata, título curto neutro,
-  nome do advogado, OAB e site. **Sem botão e sem chamada para contato.**
+  os dois sócios lado a lado com a OAB de cada um (Alexandre Juliani Riela, OAB/RS 110.261; Luiz Paulo Zubiaurre
+  Pereira, OAB/RS 110.389) e o site. **Sem botão e sem chamada para contato.**
 - Sem foto de banco de imagem, sem fundo degradê, sem emoji nas artes.
 
 A logo fica em `sistema/logo-mascara.png` (completa) e `sistema/monograma-mascara.png` (só o ZR), tiradas do papel

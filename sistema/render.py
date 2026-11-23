@@ -10,7 +10,7 @@ creme, verde e com cara de campo):
 - títulos em serifa clássica (EB Garamond), grafite; destaque em dourado discreto itálico;
 - texto corrido em Lato, cinza-grafite; numeração dos slides em algarismos romanos dourados;
 - sem selo, sem botão, sem chamada de venda: o slide final é uma assinatura, como um cartão
-  (nome do escritório, advogado, OAB e site), exigência do art. 44 do Código de Ética da OAB.
+  (nome do escritório, os dois sócios com OAB e site), exigência do art. 44 do Código de Ética da OAB.
 """
 import os, re, sys, json
 from PIL import Image, ImageDraw, ImageFont
@@ -40,6 +40,8 @@ PRATA = (214, 217, 221)
 ESCRITORIO = "Zubiaurre & Riela Advogados Associados"
 ADVOGADO = "Alexandre Juliani Riela"
 OAB = "OAB/RS 110.261"
+# Sócios que assinam o slide final (nome, OAB)
+SOCIOS = [("Alexandre Juliani Riela", "OAB/RS 110.261"), ("Luiz Paulo Zubiaurre Pereira", "OAB/RS 110.389")]
 SITE = "zradvogados.com.br"
 M = 80  # margem lateral
 
@@ -232,14 +234,22 @@ def slide_assinatura(s, n, total):
         y += 10
     if s.get("texto"):
         y = bloco(d, 0, y + 10, s["texto"], font(SANS_R, 33), (190, 195, 200), 800, 1.45, centro=True)
-    y = max(y + 70, H - 380)
-    fn = font(SERIF_SB, 46)
-    d.text(((W - d.textlength(ADVOGADO, font=fn)) / 2, y), ADVOGADO, font=fn, fill=(240, 241, 243))
-    fo = font(SANS_B, 26)
-    larg = sum(d.textlength(c, font=fo) + fo.size * 0.2 for c in OAB) - fo.size * 0.2
-    espacado(d, (W - larg) / 2, y + 70, OAB, fo, OURO_CLARO, 0.2)
+    y = max(y + 70, H - 390)
+    # os dois sócios lado a lado, com filete vertical entre eles
+    fo = font(SANS_B, 24)
+    tam = 40
+    while max(d.textlength(nome, font=font(SERIF_SB, tam)) for nome, _ in SOCIOS) > 400:
+        tam -= 1
+    fn = font(SERIF_SB, tam)
+    centros = [W / 2 - 235, W / 2 + 235] if len(SOCIOS) == 2 else [W / 2]
+    for (nome, oab), cx in zip(SOCIOS, centros):
+        d.text((cx - d.textlength(nome, font=fn) / 2, y), nome, font=fn, fill=(240, 241, 243))
+        larg = sum(d.textlength(c, font=fo) + fo.size * 0.2 for c in oab) - fo.size * 0.2
+        espacado(d, cx - larg / 2, y + 64, oab, fo, OURO_CLARO, 0.2)
+    if len(SOCIOS) == 2:
+        d.rectangle([W / 2, y + 6, W / 2, y + 92], fill=(90, 86, 78))
     fs = font(SANS_R, 30)
-    d.text(((W - d.textlength(SITE, font=fs)) / 2, y + 134), SITE, font=fs, fill=PRATA)
+    d.text(((W - d.textlength(SITE, font=fs)) / 2, y + 150), SITE, font=fs, fill=PRATA)
     return im
 
 
