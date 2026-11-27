@@ -9,3 +9,4 @@ As linhas marcadas "(manual)" são posts feitos antes da automação: servem só
 | 2026-03-10 | Reels (manual) | Lei nova e decisões dos tribunais | Jurisprudência do agro em evolução | https://www.instagram.com/reel/DVto7vXjnnQ/ |
 | 2026-05-14 | Reels (manual) | Lei nova e decisões dos tribunais | Decisão que reflete nas demais esferas da responsabilidade ambiental | https://www.instagram.com/reel/DYUtQi-uzmr/ |
 | 2026-11-23 | Carrossel | Código Florestal | APP e Reserva Legal não são a mesma coisa | https://www.instagram.com/p/DgFr3R7lxRo/ |
+| 2026-11-27 | Carrossel | Dúvidas frequentes e mitos | A multa ambiental prescreve, o dano não (prazos da Lei 9.873/1999) | https://www.instagram.com/p/DgQMig0Dd-_/ |
