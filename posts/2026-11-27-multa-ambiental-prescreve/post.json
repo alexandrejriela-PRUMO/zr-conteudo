@@ -1,0 +1,65 @@
+{
+  "pilar": "Dúvidas frequentes e mitos",
+  "formato": "carrossel",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Dúvidas frequentes",
+      "titulo": "A multa ambiental prescreve. O dano, não.",
+      "destaque": [
+        "dano",
+        "não"
+      ],
+      "sub": "Há prazos diferentes para punir, para cobrar a multa e para exigir a reparação do dano.",
+      "tamanho": 90
+    },
+    {
+      "tipo": "texto",
+      "num": 1,
+      "titulo": "Cinco anos para punir",
+      "destaque": [
+        "punir"
+      ],
+      "texto": "Na esfera federal, como no IBAMA, a Administração tem cinco anos para apurar a infração, contados da data do fato. Na infração continuada, o prazo conta do dia em que ela cessou.",
+      "fonte": "Lei 9.873/1999, art. 1º"
+    },
+    {
+      "tipo": "texto",
+      "num": 2,
+      "titulo": "Processo parado por três anos",
+      "destaque": [
+        "três",
+        "anos"
+      ],
+      "texto": "Se o processo administrativo fica mais de três anos parado, sem julgamento ou despacho, ocorre a chamada prescrição intercorrente, e os autos devem ser arquivados.",
+      "fonte": "Lei 9.873/1999, art. 1º, § 1º"
+    },
+    {
+      "tipo": "texto",
+      "num": 3,
+      "titulo": "Cinco anos para cobrar",
+      "destaque": [
+        "cobrar"
+      ],
+      "texto": "Terminado o processo administrativo e mantida a multa, abre-se um novo prazo de cinco anos para a Administração cobrá-la na Justiça.",
+      "fonte": "Lei 9.873/1999, art. 1º-A; Súmula 467 do STJ"
+    },
+    {
+      "tipo": "texto",
+      "num": 4,
+      "titulo": "Reparar o dano não prescreve",
+      "destaque": [
+        "não",
+        "prescreve"
+      ],
+      "texto": "A obrigação de recuperar o dano ambiental pode ser exigida a qualquer tempo. Mesmo que a multa prescreva, a reparação continua podendo ser cobrada.",
+      "fonte": "STF, Tema 999 (RE 654.833)"
+    },
+    {
+      "tipo": "assinatura",
+      "titulo": "Conteúdo informativo",
+      "texto": "Cada caso tem particularidades que dependem de análise própria. Acompanhe as próximas publicações."
+    }
+  ],
+  "legenda": "A multa ambiental prescreve. O dano, não.\n\nQuando se fala em prescrição na área ambiental, há pelo menos três prazos diferentes.\n\nPara punir: na esfera federal, a Administração tem cinco anos para apurar a infração, contados da data do fato (Lei 9.873/1999, art. 1º).\n\nProcesso parado: se o processo administrativo fica mais de três anos sem julgamento ou despacho, ocorre a prescrição intercorrente (art. 1º, § 1º).\n\nPara cobrar: terminado o processo, a cobrança judicial da multa tem novo prazo de cinco anos (art. 1º-A e Súmula 467 do STJ).\n\nJá a reparação do dano ambiental não prescreve (STF, Tema 999).\n\nEsses prazos da Lei 9.873/1999 valem para órgãos federais. Em autuações estaduais e municipais, a regra depende da lei local: o STJ fixou que o Decreto 20.910/1932 não serve de base para a prescrição intercorrente nesses processos (Tema 1.294).\n\nConteúdo de caráter informativo.\n\nZubiaurre & Riela Advogados Associados\nAlexandre Juliani Riela · OAB/RS 110.261\nzradvogados.com.br\n\n#direitoambiental #multaambiental #prescricao #infracaoambiental #direitoagrario"
+}
